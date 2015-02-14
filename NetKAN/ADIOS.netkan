@@ -4,6 +4,11 @@
     "$kref": "#/ckan/kerbalstuff/545",
     "license": "GPL-3.0",
     "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "TechManager"
+        }
+    ],
     "install": [
         {
             "file": "GameData/ADIOS",
@@ -11,7 +16,8 @@
         },
         {
             "file": "GameData/TechManager",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "TechManager.dll"
         }
     ]
 }
