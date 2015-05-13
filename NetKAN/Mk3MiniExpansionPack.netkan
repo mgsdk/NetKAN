@@ -3,8 +3,9 @@
     "identifier"   : "Mk3MiniExpansionPack", 
     "$kref"        : "#/ckan/kerbalstuff/449",
     "license"      : "CC-BY-NC-SA",
+    "provides"     : "OPTMk3MiniExpansion",
     "x_netkan_license_ok": true,
-    "install": [
+    "install"      : [
         {
             "file": "Mk3_Mini_Expansion_Pack_V1.1.5/GameData",
             "install_to": "GameData"
@@ -13,6 +14,5 @@
             "file": "Mk3_Mini_Expansion_Pack_V1.1.5/Ships",
             "install_to": "Ships"
         }
-
     ]
 }
