@@ -6,8 +6,13 @@
     "x_netkan_license_ok": true,
     "install": [
         {
-            "file": "GameData/OPT",
+            "file": "Mk3_Mini_Expansion_Pack_V1.1.5/GameData",
             "install_to": "GameData"
+        },
+        {
+            "file": "Mk3_Mini_Expansion_Pack_V1.1.5/Ships",
+            "install_to": "Ships"
         }
+
     ]
 }
