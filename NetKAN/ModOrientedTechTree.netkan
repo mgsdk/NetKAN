@@ -7,13 +7,9 @@
     [ 
         { "name" : "ModOrientedTechTree-Unmanned" }
     ],
-    "depends"      :
-    [ 
-        { "name" : "TechManager" }
-    ],
     "install" : [
         {
-            "find"       : "ModOrientedTree_0.3.1",
+            "find"       : "ModOrientedTechTree",
             "install_to" : "GameData"
         }
     ],
